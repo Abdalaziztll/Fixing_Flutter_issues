@@ -40,8 +40,10 @@ class _SignUpState extends State<SignUp> {
               ),
 
               //  first field
-
-              Row(
+              ///////// you can't put a row with to textfield in a one column ////////
+              /// I will replace him with a column
+              // Row(
+              Column(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Padding(

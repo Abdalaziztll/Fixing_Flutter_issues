@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePage(title: 'User Profile'),
+      home: MyHomePage(title: 'User Profile'),
     );
   }
 }
@@ -144,7 +144,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           },
                         ));
                       },
-                      child: const Text('Create account')),
+                      child: Text('Create account')),
                 ),
 
                 // sign in button
